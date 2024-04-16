@@ -23,11 +23,11 @@ nav {
 .grid {
     background-color: #3CB371;
     margin-top: 100px;
-    border: 1px solid;
+    
 }
 
 .container-fluid-cv {
-    background-color: green;
+    background-color:#FFFFFF;
     margin-top: 60px;
     height: 1500px;
     width: 100%;
@@ -36,8 +36,8 @@ nav {
 .col-md-4,
 .col-md-8 {
     background-color:#FFFFFF;
-    border: 1px solid;
-    height: 495px;
+   
+    height: 500px;
 
 }
 
