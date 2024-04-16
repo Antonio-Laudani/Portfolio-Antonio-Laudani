@@ -76,7 +76,7 @@ nav {
   
     display: flex;
      max-width: 100%; 
-    padding: 20px; /* Aggiungi padding ai lati per evitare che il contenuto sia troppo vicino ai bordi */
+    padding: 20px;
     
 }
 
@@ -92,4 +92,22 @@ nav {
     background-image: linear-gradient(to top, rgba(60, 179, 113, 0.5), #f4f4f4);
     background-clip: text;
     color: transparent;
+}
+@media (max-width: 769px) {
+    .name{
+        height: fit-content;
+    }
+
+    .container-fluid-cv .row {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .container-fluid-cv .invertsmall {
+        order: 2; 
+      }
+    
+      .container-fluid-cv .invertbig {
+        order: 1; 
+      }
 }
