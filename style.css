@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*navbar*/
 nav{
     background-color:#3CB371;
  
@@ -18,7 +18,7 @@ width: auto;
 .nav-link:hover{
     color: #f4f4f4;
 }
-
+/*homepage*/
 .container-fluid-header{
     color: #f4f4f4;
     background-color: black;
@@ -67,4 +67,33 @@ min-height:779px;
      border-color:#3CB371;
     
 }
-
+/*about*/
+.container-fluid-about{
+    min-height:820px;
+    padding-top: 50px;
+    background-image: linear-gradient(to top, rgba(60, 179, 113, 0.5), #FFFFFF);
+    }
+    
+    
+    .skills{
+        margin-top: 50px;
+        border: 1px solid;
+    }
+    
+    .col{
+        padding-top: 20px;
+        border: 1px solid;
+        height: 500px;
+        max-width:100%;    
+    }
+    
+    .progress-bar{
+        background-color: #3CB371;
+    }
+    
+    .heading-tertiary{
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: #3CB371;
+    }
+    
