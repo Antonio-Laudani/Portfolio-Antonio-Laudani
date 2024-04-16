@@ -31,7 +31,7 @@ min-height:779px;
 }
 
 .p-3{
-    border: 1px solid;
+    
    width: 100%;
    height: 700px;
   
@@ -77,12 +77,12 @@ min-height:779px;
     
     .skills{
         margin-top: 50px;
-        border: 1px solid;
+       
     }
     
     .col{
         padding-top: 20px;
-        border: 1px solid;
+       
         height: 500px;
         max-width:100%;    
     }
@@ -123,3 +123,35 @@ min-height:779px;
     display: block;
     margin: 0 auto;
 }
+/*projects*/
+.container-fluid-projects{
+    padding-top: 20px;
+min-height: 820px;
+background-color:black;
+align-items: center;
+}
+
+.projects-container{
+   flex-wrap: wrap;
+    border: 1px solid #3CB371;
+}
+
+.projects-column{
+    color: white;
+    border: 1px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(60, 179, 113, 0.5);
+    text-align: center;
+  
+}
+
+.work-in-progress{
+max-width: 70%;
+padding-top: 40px;
+}
+
+.container-fluid-contact{
+    min-height: 760px;
+}
+
