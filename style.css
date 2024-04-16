@@ -160,8 +160,8 @@ padding-top: 40px;
     background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centra verticalmente il contenuto */
-    padding: 0 20px; /* Aggiungi padding ai lati per evitare che il contenuto sia troppo vicino ai bordi */
+    align-items: center; 
+    padding: 0 20px;
 }
 
 .footer-icon {
@@ -179,7 +179,7 @@ padding-top: 40px;
 }
 @media only screen and (max-width: 768px) {
     .container-fluid-header{
-        background-image: linear-gradient(to left, rgba(0,0,0,0.5), black), url(images/coding-3.jpg);/*imposta la sfumatura dell immagine al contrario per mobile*/
+        background-image: linear-gradient(to left, rgba(0,0,0,0.5), black), url(images/coding-3.jpg);
     }
 .heading-secondary{
     color: #FFFFFF;
@@ -195,8 +195,8 @@ padding-top: 40px;
      
 }
 .card-img-top {
-    max-width: 30%; /* Riduci la larghezza massima dell'immagine */
-    max-height: 200px; /* Imposta un'altezza massima per le colonne */
+    max-width: 30%;
+    max-height: 200px; 
     display: flex;
     margin: 0 auto;
 }
