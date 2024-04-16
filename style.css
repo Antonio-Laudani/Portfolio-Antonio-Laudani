@@ -155,3 +155,25 @@ padding-top: 40px;
     min-height: 760px;
 }
 /*footer*/
+.container-fluid-footer {
+    color: rgb(197, 197, 197);
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente il contenuto */
+    padding: 0 20px; /* Aggiungi padding ai lati per evitare che il contenuto sia troppo vicino ai bordi */
+}
+
+.footer-icon {
+    font-size: 2rem;
+    margin-left: 10px;
+    background-color: black;
+    color: #FFFFFF;
+
+}
+
+.footer-icon:hover {
+    background-image: linear-gradient(to top, rgba(60, 179, 113, 0.5), #f4f4f4);
+    background-clip: text;
+    color: transparent;
+}
