@@ -19,3 +19,54 @@ nav {
 .nav-link:hover {
     color: #f4f4f4;
 }
+/*CV*/
+.grid {
+    background-color: #3CB371;
+    margin-top: 100px;
+    border: 1px solid;
+}
+
+.container-fluid-cv {
+    background-color: green;
+    margin-top: 60px;
+    height: 1500px;
+    width: 100%;
+}
+
+.col-md-4,
+.col-md-8 {
+    background-color:#FFFFFF;
+    border: 1px solid;
+    height: 495px;
+
+}
+
+.foto-cv{
+    max-width: 100%; /* Imposta la larghezza massima al 100% della larghezza della colonna*/ 
+    max-height: 100%; /* Imposta l'altezza massima al 100% dell'altezza della colonna */
+    width: auto; /* Imposta la larghezza automaticamente per mantenere le proporzioni originali */
+    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni originali */
+    display: block; /* Assicura che l'immagine sia un blocco per consentire la regolazione delle dimensioni */
+    margin: 0 auto; /* Centra l'immagine all'interno della colonna */
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(50, 51, 51, 0.5);
+}
+
+.shadowtext {
+    padding-bottom: 20px; /* Aggiunge spazio alla parte inferiore */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra al testo */
+}
+
+.contact{
+   color: black;
+   font-size: 1.5rem;
+  margin-left: 5px;
+}
+
+.contact:hover{
+    background-image: linear-gradient(to top, rgba(60, 179, 113, 0.5), #000000);
+    background-clip: text;
+    color: transparent; 
+}
+
