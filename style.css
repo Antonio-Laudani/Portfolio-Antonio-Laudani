@@ -177,3 +177,33 @@ padding-top: 40px;
     background-clip: text;
     color: transparent;
 }
+@media only screen and (max-width: 768px) {
+    .container-fluid-header{
+        background-image: linear-gradient(to left, rgba(0,0,0,0.5), black), url(images/coding-3.jpg);/*imposta la sfumatura dell immagine al contrario per mobile*/
+    }
+.heading-secondary{
+    color: #FFFFFF;
+}
+
+  .container-fluid-about{
+   background-image: linear-gradient(to bottom, rgba(60, 179, 113, 0.5), #f4f4f4);  
+  }
+
+  .card {
+    width: 100%; /* Imposta la larghezza al 100% per farle allineare una sotto l'altra */
+    margin: 10px 0; /* Riduci il margine verticale per separare le carte */
+     
+}
+.card-img-top {
+    max-width: 30%; /* Riduci la larghezza massima dell'immagine */
+    max-height: 200px; /* Imposta un'altezza massima per le colonne */
+    display: flex;
+    margin: 0 auto;
+}
+
+.projects-column{
+    width: 40%;
+    margin: auto;
+   
+}
+}
