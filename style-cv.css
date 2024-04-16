@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*NAVBAR*/
+nav {
+    background-color: #3CB371;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    width: auto;
+}
+
+.nav-link:hover {
+    color: #f4f4f4;
+}
