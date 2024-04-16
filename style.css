@@ -96,4 +96,30 @@ min-height:779px;
         margin-bottom: 15px;
         color: #3CB371;
     }
-    
+/*my intrests*/    
+.container-fluid-interests{
+    background-color:#FFFFFF;
+    min-height:830px;
+    padding-top: 50px;
+}
+
+.cards-container{
+   display: flex;
+   flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card{
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(50, 51, 51, 0.5);
+    width:30%;
+    margin:10px ;
+ box-sizing:border-box;
+ margin: 0 auto;
+}
+.card-img-top{
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
