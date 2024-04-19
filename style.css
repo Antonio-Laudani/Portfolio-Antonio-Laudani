@@ -189,9 +189,14 @@ padding-top: 40px;
    background-image: linear-gradient(to bottom, rgba(60, 179, 113, 0.5), #f4f4f4);  
   }
 
+  .cards-container{
+   margin-left: 5px;
+  }
+
   .card {
     width: 100%; /* Imposta la larghezza al 100% per farle allineare una sotto l'altra */
-    margin: 10px 0; /* Riduci il margine verticale per separare le carte */
+    margin: 10px 0 ; /* Riduci il margine verticale per separare le carte */
+   
      
 }
 .card-img-top {
@@ -204,7 +209,10 @@ padding-top: 40px;
 .projects-column{
     width: 40%;
     margin: auto;
-   text-align: center;
+   
+}
+.work-in-progress{
+  padding-bottom: 50%;
 }
 
 .contactgrid{
