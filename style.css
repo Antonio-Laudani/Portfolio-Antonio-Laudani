@@ -183,6 +183,10 @@ padding-top: 40px;
     color: transparent;
 }
 @media only screen and (max-width: 768px) {
+    .navbar-nav{
+text-align: center;
+    }
+
     .container-fluid-header{
         background-image: linear-gradient(to left, rgba(0,0,0,0.5), black), url(images/coding-3.jpg);
     }
