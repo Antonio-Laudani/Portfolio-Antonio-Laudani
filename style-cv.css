@@ -96,8 +96,10 @@ nav {
     color: transparent;
 }
 @media (max-width: 769px) {
-    .name{
+    .name{ 
+        height: -moz-fit-content;
         height: fit-content;
+        
     }
 
     .container-fluid-cv .row {
