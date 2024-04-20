@@ -3,10 +3,14 @@
     padding: 0;
     margin: 0;
 }
+
+th {
+    text-align: match-parent;
+}
+
 /*navbar*/
 nav{
     background-color:#3CB371;
- 
 }
 
 .navbar-nav{
@@ -28,6 +32,7 @@ min-height:779px;
  background-size: cover; /* Imposta la dimensione dell'immagine per coprire l'intero contenitore */
  background-position: center; /* Centra l'immagine all'interno del contenitore */
  backdrop-filter: blur(5px); /* Applica un effetto di sfocatura solo all'immagine di sfondo */
+ -webkit-backdrop-filter: blur(5px);
 }
 
 .p-3{
