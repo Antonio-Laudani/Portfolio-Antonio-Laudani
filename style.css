@@ -26,8 +26,8 @@ min-height:779px;
  background-image: linear-gradient(to right, rgba(0,0,0,0.5), black), url(images/coding-3.jpg);
  background-size: cover; /* Imposta la dimensione dell'immagine per coprire l'intero contenitore */
  background-position: center; /* Centra l'immagine all'interno del contenitore */
- backdrop-filter: blur(5px); /* Applica un effetto di sfocatura solo all'immagine di sfondo */
  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); /* Applica un effetto di sfocatura solo all'immagine di sfondo */
 }
 
 .p-3{
