@@ -5,7 +5,9 @@
 }
 
 th {
-    text-align: match-parent;
+    display: table-cell; /* Simula comportamento di una cella di tabella */
+    vertical-align: middle; /* Allinea il contenuto verticalmente al centro */
+    text-align: left; /* Allinea il testo a sinistra */
 }
 
 /*navbar*/
